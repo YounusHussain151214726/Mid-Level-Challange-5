@@ -1,0 +1,100 @@
+:root {
+  /* ### Primary */
+
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+
+  /* ### Neutral */
+
+  --Very-dark-blue: hsl(217, 54%, 11%);
+  --Very-dark-blue: hsl(216, 50%, 16%);
+  --Very-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Fraunces", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Fraunces", serif;
+  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--Very-dark-blue);
+  color: var(--White);
+}
+.Container {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 90%;
+}
+.backImg {
+  margin: auto;
+  background-image: url("./images/image-equilibrium.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 24vh;
+  min-height: 20vh;
+  max-height: 30vh;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+  margin: 1rem 1rem;
+}
+
+.wraper {
+  width: 20%;
+  max-width: 30%;
+  min-width: 19rem;
+  margin: auto;
+  margin-top: 5rem;
+  border-radius: 0.8rem;
+  border: 2px solid var(--Soft-blue);
+}
+
+.content {
+  text-align: left;
+  padding: 1rem 1.5rem;
+}
+.content p {
+  margin-top: 1rem;
+}
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left,
+.right {
+  margin-top: 2rem;
+}
+.left > span,
+.right > span {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.nftCreator {
+  margin-top: 3rem;
+  display: flex;
+  padding: 1rem 2rem;
+  padding-bottom: 2rem;
+}
+.nftCreator > img {
+  width: 10%;
+}
+
+.nftCreator > h4 {
+  position: relative;
+  left: 0.5rem;
+  top: 0.1rem;
+}
