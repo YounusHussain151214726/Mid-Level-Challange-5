@@ -20,18 +20,14 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
-  font-family: "Fraunces", serif;
-  font-family: "Kumbh Sans", sans-serif;
-  font-family: "Montserrat", sans-serif;
 }
 body {
   text-align: center;
   font-size: 1rem;
-  font-family: "Fraunces", serif;
-  font-family: "Kumbh Sans", sans-serif;
-  font-family: "Montserrat", sans-serif;
   background-color: var(--Very-dark-blue);
   color: var(--White);
+  font-family: 'Outfit', sans-serif;
+
 }
 .Container {
   margin: 0 auto;
@@ -43,9 +39,7 @@ body {
   background-image: url("./images/image-equilibrium.jpg");
   background-position: center;
   background-size: cover;
-  height: 24vh;
-  min-height: 20vh;
-  max-height: 30vh;
+  height: 17rem;
   border-top-left-radius: 0.8rem;
   border-top-right-radius: 0.8rem;
   margin: 1rem 1rem;
